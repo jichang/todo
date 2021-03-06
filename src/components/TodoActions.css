@@ -1,0 +1,20 @@
+.todo__actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.todo__actions .filters {
+  flex: 1;
+}
+
+.todo__actions .button {
+  padding: 0.5rem;
+  border: 1px solid white;
+}
+
+.button--filter.button--active {
+  border: 1px solid black;
+}
