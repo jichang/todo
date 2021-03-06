@@ -7,6 +7,6 @@ export interface Todo {
   id: number;
   title: string;
   createdDate: Date;
-  completedDate: Date | undefined;
+  completedDate?: Date;
   status: TodoStatus;
 }

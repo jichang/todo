@@ -18,6 +18,7 @@ export function TodoForm(props: TodoFormProps) {
         if (title) {
           onSubmit({ title });
         }
+        setTitle("");
       }}
     >
       <div className="form__field">

@@ -1,0 +1,18 @@
+.todo__list {
+  padding: 0.5rem 1rem;
+}
+
+ol {
+  padding: 0;
+  list-style: none;
+  border: 1px solid #f0f0f0;
+}
+
+li {
+  padding: 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
