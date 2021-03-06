@@ -1,0 +1,14 @@
+.form {
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.form__field {
+  margin: 1rem auto;
+}
+
+.form__control {
+  padding: 0.5rem;
+
+  width: 100%;
+}
